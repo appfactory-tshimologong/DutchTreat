@@ -22,6 +22,7 @@ namespace DutchTreat
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseDefaultFiles();
+
             app.UseStaticFiles();
         }
     }
