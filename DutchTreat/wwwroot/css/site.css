@@ -46,3 +46,26 @@ ul.product-props li {
     background-color:green;
     color:white;
 }
+
+#loginToggle{
+    cursor:pointer;
+}
+.popupForm {
+    padding: 5px;
+    border: 2px black inset;
+    display: inline-block;
+}
+
+.popupForm input {
+    width: 200px;
+}
+
+.popupForm input[type=checkbox], .popupForm input[type=submit]
+{
+    width:auto;
+}
+
+.popupForm label{
+    width: 150px;
+    display: inline-block;
+}
