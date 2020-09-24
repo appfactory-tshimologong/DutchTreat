@@ -6,8 +6,8 @@
     //var theForm = document.getElementById("theForm");
     //theForm.hidden = true;
 
-    var theForm = $("#theForm");
-    theForm.hide();
+    //var theForm = $("#theForm");
+    //theForm.hide();
 
     //var buyButton = document.getElementById("buyButton");
     //buyButton.addEventListener("click", function () {

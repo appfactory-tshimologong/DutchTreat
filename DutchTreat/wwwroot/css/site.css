@@ -47,6 +47,18 @@ ul.product-props li {
     color:white;
 }
 
+menu>ul>li{
+    display:inline;
+}
+
+menu>ul>li::after{
+    content: " |";
+}
+
+menu>ul>li:last-of-type::after{
+    content:"";
+}
+
 #loginToggle{
     cursor:pointer;
 }
