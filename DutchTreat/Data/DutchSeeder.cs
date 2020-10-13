@@ -14,11 +14,12 @@ namespace DutchTreat.Data
     public class DutchSeeder
     {
         private readonly DutchContext _ctx;
-        private readonly IHostingEnvironment _hosting;
+        private readonly IWebHostEnvironment _host;
 
-        public DutchSeeder(DutchContext ctx, IHostingEnvironment hosting)
+        public DutchSeeder(DutchContext ctx, IWebHostEnvironment host)
         {
             _ctx = ctx;
+            _host = host;
         }
 
         public void Seed()
@@ -28,7 +29,7 @@ namespace DutchTreat.Data
             if (!_ctx.Products.Any())
             {
                 //Need to create sample data
-                var filepath = Path.Combine(_hosting.ContentRootPath, "Data/art.json");
+                var filepath = Path.Combine(_host.ContentRootPath, "Data/art.json");
 
                 var json = File.ReadAllText(filepath);
 
