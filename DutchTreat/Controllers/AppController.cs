@@ -20,7 +20,7 @@ namespace DutchTreat.Controllers
         }
         public IActionResult Index()
         {
-            //throw new InvalidOperationException(); 
+            var results = _context.Products.ToList();
             return View();
         }
 
