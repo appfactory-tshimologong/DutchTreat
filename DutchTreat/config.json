@@ -1,5 +1,12 @@
 {
 	"ConnectionStrings": {
 		"DutchConnectionString": "Data Source=(localdb)\\MSSQLLocalDB;Database=DutchTreatDb;Integrated Security=True;MultipleActiveResultSets=true;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+	},
+
+	"Logging": {
+		"LogLevel": {
+			"Default": "Information",
+			"Microsoft": "Warning"
+		}
 	}
 }
