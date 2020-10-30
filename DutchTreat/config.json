@@ -7,6 +7,12 @@
 		"LogLevel": {
 			"Default": "Information",
 			"Microsoft": "Warning"
+		},
+
+		"Tokens": {
+			"Key": "abcdefg",
+			"Issuer": "localhost",
+			"Audience": ""
 		}
 	}
 }
